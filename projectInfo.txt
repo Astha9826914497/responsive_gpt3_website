@@ -1,0 +1,1 @@
+In this project we are only using one dependency i.e., react-icons.

@@ -1,0 +1,105 @@
+.gpt3_whatgpt3 {
+    display:flex;
+    flex-direction:column;
+    padding:2rem;
+    background: #232121;
+
+    filter:drop-shadow(0px 4px 4px rgba(0 0 0 0.25))
+
+}
+
+.gpt3_whatgpt3-feature {
+    display:flex;
+}
+
+.gpt3_whatgpt3-feature .gpt3_features-container_feature {
+    margin:0;
+}
+
+.gpt3_whatgpt3-feature .gpt3_features-container_feature-text {
+    max-width:700px;
+}
+
+.gpt3_whatgpt3-heading {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+
+    margin: 4rem 0 2rem;
+}
+
+.gpt3_whatgpt3-heading h1 {
+    font-size:34px;
+    line-height:45px;
+    font-weight:800px;
+    max-width:510px;
+    font-family: Manrope;
+    background: linear-gradient(180deg, rgba(221, 144, 144, 0.60) 0%, rgba(76, 237, 227, 0.97) 9.9%, rgba(76, 237, 227, 0.97) 15.63%, rgba(78, 230, 223, 0.87) 22.21%, rgba(107, 209, 202, 0.31) 22.22%, #4BEFE5 22.23%, rgba(78, 229, 222, 0.86) 29.69%, rgba(77, 232, 225, 0.91) 33.32%, rgba(93, 191, 196, 0.31) 33.33%, rgba(83, 230, 222, 0.82) 33.34%, rgba(78, 232, 224, 0.89) 39.57%, rgba(93, 191, 196, 0.31) 39.58%, rgba(83, 230, 221, 0.81) 42.19%, rgba(78, 231, 224, 0.89) 44.42%, rgba(97, 218, 212, 0.82) 44.43%, rgba(90, 186, 195, 0.31) 44.44%, rgba(105, 210, 203, 0.34) 44.45%, rgba(81, 232, 223, 0.86) 47.91%, rgba(78, 231, 224, 0.88) 47.92%, rgba(75, 239, 229, 1.00) 55.54%, rgba(105, 210, 203, 0.34) 55.55%, rgba(96, 200, 223, 0.31) 55.56%, rgba(79, 227, 221, 0.83) 55.57%, rgba(78, 231, 223, 0.88) 66.64%, rgba(78, 229, 222, 0.86) 66.65%, rgba(78, 230, 223, 0.87) 66.66%, rgba(120, 196, 212, 0.24) 66.67%, rgba(78, 229, 222, 0.86) 66.68%, rgba(81, 228, 221, 0.82) 69.26%, rgba(101, 213, 206, 0.42) 69.27%, rgba(77, 234, 226, 0.93) 69.28%, rgba(79, 229, 222, 0.85) 74.48%, rgba(75, 238, 228, 0.99) 77.77%, rgba(109, 182, 198, 0.17) 77.78%, rgba(93, 221, 215, 0.83) 77.79%, rgba(76, 237, 227, 0.97) 77.8%, rgba(76, 236, 227, 0.96) 81.25%, rgba(75, 239, 229, 1.00) 86.46%, rgba(87, 223, 216, 0.69) 88.88%, rgba(147, 239, 239, 0.07) 88.89%, rgba(83, 226, 220, 0.85) 88.9%, rgba(79, 227, 221, 0.83) 94.79%, rgba(87, 223, 216, 0.69) 99.99%, rgba(131, 220, 239, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpt3_whatgpt3-heading p {
+    font-family: Manrope;
+    font-weight:500;
+    font-size:16px;
+    line-height:30px;
+    cursor:pointer;
+    color:#40E0D0	
+}
+
+.gpt3_whatgpt3-container {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    margin-top:2rem;
+}
+
+.gpt3_whatgpt3-container .gpt3_features-container_feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.gpt3_whatgpt3-container .gpt3_features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .gpt3_whatgpt3-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .gpt3_whatgpt3-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3_whatgpt3-feature .gpt3_features-container_feature {
+        flex-direction: column;
+    }
+
+    .gpt3_whatgpt3-feature .gpt3_features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .gpt3_whatgpt3-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .gpt3_whatgpt3-container .gpt3_features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
+
